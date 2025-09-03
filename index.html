@@ -193,7 +193,7 @@
 
             // --- API & RENDERING LOGIC ---
             async function callGemini(systemPrompt, userQuery) {
-                const apiKey = "AIzaSyDouHhMTNQG8Hx3z4RBd2ED4NJJ8Ul09uY";
+                const apiKey = "Enter your api key here";
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
                 const payload = {
                     contents: [{ parts: [{ text: userQuery }] }],
